@@ -58,9 +58,9 @@ Na página do modelo, clique na aba "Pontos de extremidade". Também é possíve
 Para o teste, utilizei o json abaixo:
 
 ``` JASON
-{
-  "input_data": {
-    "data": [
+ {
+   "Inputs": { 
+     "data": [
        {
          "day": 1,
          "mnth": 1,   
@@ -75,9 +75,10 @@ Para o teste, utilizei o json abaixo:
          "hum": 0.3,
          "windspeed": 0.3 
        }
-     ]
-  }
-}
+     ]    
+   },   
+   "GlobalParameters": 1.0
+ }
 ```
 
 A previsão gerada foi: 376.20.
